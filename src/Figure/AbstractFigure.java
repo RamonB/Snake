@@ -13,6 +13,14 @@ abstract class AbstractFigure {
   private Point position;
   
   /**
+   * 
+   * @param position this.position
+   */
+  public AbstractFigure(Point position) {
+    this.position = position;
+  }
+  
+  /**
    * Moves the figure horizonal
    * 
    * @param step Step to move
