@@ -4,6 +4,6 @@ package Figure;
  *
  * @author ramon
  */
-public class Snake {
+public class Snake extends AbstractFigure {
   
 }
